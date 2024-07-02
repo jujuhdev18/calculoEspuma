@@ -1,16 +1,8 @@
-Algoritmo "Guanabara"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Guanabara
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Giu
-// Data atual  : 27/06/2024
 Var
-// Seção de Declarações das variáveis 
 altura, largura, comprimento, preco: real
 densidade: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
 Escreva("Digite a Comprimento: ")
 leia (comprimento)
 
@@ -23,12 +15,12 @@ leia (altura)
 Escreva("Digite a Densidade:  ")
 leia (densidade)
 
-Escreva("Digite o preço do kilo: ")
+Escreva("Digite o preÃ§o do kilo: ")
 leia (kilo)
 
 preco:= altura * comprimento * largura * densidade * kilo
 
-Escreva("O Preço da espuma na Densidade", densidade , " é : " , preco)
+Escreva("O PreÃ§o da espuma na Densidade", densidade , " Ã© : " , preco)
 leia (preco)
 
 Fimalgoritmo
